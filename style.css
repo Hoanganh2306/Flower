@@ -1700,3 +1700,31 @@ body {
     opacity: 1;
   }
 }
+#music-controls {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; /* Đặt vị trí bên trái */
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 999; /* Đảm bảo phần tử này hiển thị trên các phần tử khác */
+}
+
+
+
+#volume-control{
+    width: 100px;
+    margin-right: 10px;
+}
+#toggle-music {
+    background-color: transparent; /* Đặt màu nền thành trong suốt */
+    border: none; /* Loại bỏ viền */
+    cursor: pointer;
+    padding: 0; /* Loại bỏ padding */
+}
+
+#play-icon {
+    width: 20px; /* Điều chỉnh kích thước của biểu tượng */
+    height: 20px;
+    filter: invert(100%); /* Chuyển đổi màu từ đen thành trắng */
+}
