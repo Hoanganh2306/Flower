@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Tặng </title>
+  <title>Web này chỉ có hoa</title>
    <link rel="icon" type="image/x-icon" href="./flower_346218.png">
   <link rel="stylesheet" href="./style.css">
 
@@ -10,6 +10,14 @@
 <body>
 <!-- partial:index.partial.html -->
 <body class="container">
+    <div id="music-controls">
+        <button id="toggle-music">
+            <img id="play-icon" src="play.png" alt="Play">
+        </button>
+        <input type="range" id="volume-control" min="0" max="100" value="50" step="1">
+    </div>
+    
+    <audio id="background-music" src="dungxaanhnhe.mp3" loop></audio>
   <div class="night"></div>
   <div class="flowers">
     <div class="flower flower--1">
